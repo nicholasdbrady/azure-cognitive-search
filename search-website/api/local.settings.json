@@ -3,8 +3,8 @@
   "Values": {
     "AzureWebJobsStorage": "",
     "FUNCTIONS_WORKER_RUNTIME": "python",
-    "SearchServiceName":"",
-    "SearchApiKey":"",
+    "SearchServiceName":"azcogsearch-nbrady",
+    "SearchApiKey":"F0B1A01D687D66861DF89D2F4834A9D2",
     "SearchIndexName":"good-books"
   }
 }

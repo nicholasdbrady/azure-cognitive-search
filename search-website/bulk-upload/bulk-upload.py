@@ -17,8 +17,8 @@ from azure.search.documents.indexes.models import (
 )
 
 # Get the service name (short name) and admin API key from the environment
-service_name = 'YOUR-SEARCH-SERVICE-NAME'
-key = 'YOUR-SEARCH-SERVICE-ADMIN-API-KEY'
+service_name = 'azcogsearch-nbrady'
+key = 'F0B1A01D687D66861DF89D2F4834A9D2'
 endpoint = "https://{}.search.windows.net/".format(service_name)
 
 # Give your index a name
@@ -66,7 +66,7 @@ def get_schema_data(schema, url=False):
 
 # Create Search Index from the schema
 # If reading the schema from a URL, set url=True
-def create_schema_from_json_and_upload(schema, index_name, admin_client, url=False):
+def create_schema_from_json_and_upload(schema, index_name, admin_client, url=True):
 
     cors_options = CorsOptions(allowed_origins=["*"], max_age_in_seconds=60)
     scoring_profiles = []
