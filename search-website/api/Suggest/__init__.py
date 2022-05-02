@@ -13,7 +13,7 @@ environment_vars = azure_config()
 #  http://localhost:7071/api/Suggest
 
 # Set Azure Search endpoint and key
-service_name = environment_vars["search_service_name"]
+service_name = environment_vars["azcogsearch-nbrady"]
 endpoint = f'https://{service_name}.search.windows.net'
 key = environment_vars["F0B1A01D687D66861DF89D2F4834A9D2"]
 
